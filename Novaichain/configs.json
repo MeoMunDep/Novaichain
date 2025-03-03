@@ -1,0 +1,19 @@
+{
+  "timeZone": "en-US",
+  "rotateProxy": false,
+  "skipInvalidProxy": true,
+  "proxyRotationInterval": 2,
+  "delayEachAccount": [1, 1],
+  "timeToRestartAllAccounts": 300,
+  "howManyAccountsRunInOneTime": 10,
+
+  "swapRandom": true,
+  "swap": {
+    "NOVAI_to_nUSDT": 0.00001,
+    "NOVAI_to_wNOVAI": 0.00001,
+    "nUSDT_to_NOVAI": 0.00001,
+    "nUSDT_to_wNOVAI": 0.00001,
+    "wNOVAI_to_nUSDT": 0.00001,
+    "wNOVAI_to_NOVAI": 0.00001
+  }
+}
