@@ -43,7 +43,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
    Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
 
    ```bash
-   npm install --force user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync moment lodash qs proper-lockfile
+   npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3
    ```
 
    If you encounter an Execution Policy error on Windows, run:
@@ -83,6 +83,11 @@ This file controls the bot’s behavior. Below is an example configuration:
     "nUSDT_to_wNOVAI": 0.00001,
     "wNOVAI_to_nUSDT": 0.00001,
     "wNOVAI_to_NOVAI": 0.00001
+  },
+
+  "faucet": {
+    "maxCaptchaAttempts": 20,
+    "2captchaApiKey": ""
   }
 }
 ```
@@ -97,7 +102,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
 
 
-### 2. `datas.txt` - 🗂️ User Data
+### 2. `privateKeys.txt` - 🗂️ User Data
 
 
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
@@ -117,12 +122,19 @@ _Note: Each row for each account_
 
 If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
 
+- [Get it from here](https://www.webshare.io/?referral_code=4l5kb3glsce7)
+
 ```txt
-http://user:password@host:port
-https://user:password@host:port
-socks4://user:password@host:port
-socks5://user:password@host:port
+http://host:port
+https://host:port
+socks4://host:port
+socks5://host:port
+http://user:pass@host:port
+https://user:pass@host:port
+socks4://user:pass@host:port
+socks5://user:pass@host:port
 ```
+
 
 _Note: each row for each account_
 
@@ -145,7 +157,7 @@ _Note: each row for each account_
 
 ## Contact and Support
 
-- **Help me with your referral** [Referral Link]()
+- **Novai chain website** [Link]()
 - **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
 
 If you encounter any issues or have questions, feel free to reach out:
