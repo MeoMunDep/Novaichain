@@ -15,5 +15,10 @@
     "nUSDT_to_wNOVAI": 0.00001,
     "wNOVAI_to_nUSDT": 0.00001,
     "wNOVAI_to_NOVAI": 0.00001
+  },
+
+    "faucet": {
+    "maxCaptchaAttempts": 20,
+    "2captchaApiKey": ""
   }
 }
