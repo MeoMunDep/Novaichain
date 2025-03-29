@@ -152,8 +152,8 @@ _Note: each row for each account_
    ```bash
    node meomundep.js
    ```
-  or
-  ```bash
+   or
+   ```bash
    node faucet_meomundep.js
    ```
 to faucet NOVAI 
