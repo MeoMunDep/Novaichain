@@ -1,1 +1,1 @@
-console.log(`20 stars to unlock this`)
+console.log(`Still waiting...`)
