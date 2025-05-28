@@ -33,7 +33,6 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-  "timeZone": "en-US",
   "rotateProxy": false,
   "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
@@ -91,4 +90,4 @@ cd - > /dev/null
 print_green "Dependencies installation completed!"
 
 print_green "Starting the bot..."
-node meomundep
+node tx_meomundep
